@@ -34,10 +34,11 @@ export default function Home() {
   ];
 
   const teamMembers = [
-    { name: 'Dr. Maya Chen', role: 'Chief Medical Officer' },
-    { name: 'Alex Rivera', role: 'Head of AI Research' },
-    { name: 'Jordan Patel', role: 'VP of Engineering' },
-    { name: 'Sara Nguyen', role: 'Clinical Partnerships Lead' },
+    { name: 'John Nguyen', role: 'Chief Executive Officer' },
+    { name: 'Vishnu Chitra', role: 'Chief Operating Officer' },
+    { name: 'Ishaan Buddharaju', role: 'Chief Technical Officer' },
+    { name: 'Michael Lamiman', role: 'Chief Engineer' },
+    { name: 'Dr. Josephine Nguyen', role: 'Chief Medical Officer' },
   ];
 
   return (
@@ -59,10 +60,10 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-slate-900 tracking-tight mb-6 sm:mb-8">
-                About <span className="text-teal-600">DermAI</span>
+                Skinapse <span className="text-teal-600">Labs</span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-slate-600 leading-relaxed font-light max-w-3xl mx-auto">
-                Revolutionizing dermatological diagnostics through cutting-edge AI technology and clinical expertise.
+                Holistic Skin Diagnosis Powered By Multilayer Image Analysis and Patient Context.
               </p>
             </motion.div>
           </div>
@@ -82,12 +83,10 @@ export default function Home() {
                   Our <span className="text-teal-600">Mission</span>
                 </h2>
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-6">
-                  At DermAI, we're dedicated to transforming the landscape of dermatological care by making advanced
-                  diagnostic capabilities accessible to healthcare providers and patients worldwide.
+                  At Skinapse Labs, our mission is to help skincare businesses deliver acne care that feels genuinely personalized and easy to understand. We empower brands to show customers what their acne looks like, what may be driving it, and what steps to take to treat it safely using routines that work well together. 
                 </p>
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-                  Our mission is to bridge the gap between cutting-edge AI technology and clinical practice, ensuring
-                  that every patient receives accurate, timely, and accessible skin health assessments.
+                  By pairing personalization with clear education, we build user trust and retention because customers understand why each product is recommended and how to use it confidently without needing a dermatologist for every decision.	
                 </p>
               </motion.div>
 
@@ -103,19 +102,19 @@ export default function Home() {
                   <div className="relative z-10">
                     <div className="grid grid-cols-2 gap-6">
                       <div className="text-center">
-                        <div className="text-4xl sm:text-5xl font-heading font-bold text-teal-600 mb-2">99.2%</div>
+                        <div className="text-4xl sm:text-5xl font-heading font-bold text-teal-600 mb-2">95%</div>
                         <div className="text-sm sm:text-base text-slate-500">Accuracy Rate</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-4xl sm:text-5xl font-heading font-bold text-teal-600 mb-2">50M+</div>
+                        <div className="text-4xl sm:text-5xl font-heading font-bold text-teal-600 mb-2">10,000+</div>
                         <div className="text-sm sm:text-base text-slate-500">Samples Trained</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-4xl sm:text-5xl font-heading font-bold text-teal-600 mb-2">150+</div>
-                        <div className="text-sm sm:text-base text-slate-500">Medical Centers</div>
+                        <div className="text-4xl sm:text-5xl font-heading font-bold text-teal-600 mb-2">10</div>
+                        <div className="text-sm sm:text-base text-slate-500">Practical Trials</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-4xl sm:text-5xl font-heading font-bold text-teal-600 mb-2">12</div>
+                        <div className="text-4xl sm:text-5xl font-heading font-bold text-teal-600 mb-2">2</div>
                         <div className="text-sm sm:text-base text-slate-500">Countries</div>
                       </div>
                     </div>
@@ -190,8 +189,7 @@ export default function Home() {
                 Explore the <span className="text-teal-600">Solution</span>
               </h2>
               <p className="text-base sm:text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-                Dive into the full DermAI platform experience and see how our technology integrates into real clinical
-                workflows.
+                Dive into the full Skinapse Labs experience and see how our technology integrates into real clinical workflows.
               </p>
               <Link
                 href="/solution"
