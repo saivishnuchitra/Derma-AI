@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' });
 
 export const metadata: Metadata = {
-    title: 'DermAI | Precision Diagnostics',
-    description: 'Clinical-grade AI diagnostics powered by 3D volumetric scanning.',
+    title: 'Skinapse Labs',
+    description: 'Holistic Skin Diagnosis Powered By Multilayer Image Analysis and Patient Context.',
 };
 
 export default function RootLayout({
