@@ -4,30 +4,30 @@ import { Milestone, ScanPoint } from './types';
 export const MILESTONES: Milestone[] = [
   {
     id: 1,
-    year: "2021",
+    year: "2023",
     title: "Inception & Seed",
-    description: "Founded by MIT researchers focusing on neural-net visual diagnostics.",
-    imageUrl: "https://picsum.photos/400/300?random=1"
+    description: "Won 1st place at Northeastern University Oakland’s Husky Startup Challenge for developing a preliminary acne-focused diagnostic tool.",
+    imageUrl: "https://imgur.com/a/PpzFPSC"
   },
   {
     id: 2,
-    year: "2022",
-    title: "Clinical Trials Phase I",
-    description: "Successfully validated 99.2% accuracy across 10,000 diverse skin types.",
-    imageUrl: "https://picsum.photos/400/300?random=2"
+    year: "2024",
+    title: "Model Enhancement & Testing",
+    description: "Enhanced the model to detect melanin levels, sebum production, inflammation, scarring, and other key facial characteristics, supported by extensive testing and validation.",
+    imageUrl: "https://imgur.com/a/8FFAcd7"
   },
   {
     id: 3,
-    year: "2023",
-    title: "FDA Breakthrough Status",
-    description: "Granted priority review for our novel diagnostic AI software.",
+    year: "2025",
+    title: "External Validation",
+    description: "Collaborated with U.S. nonprofits, student organizations, and Indian schools to gather external validation feedback and deliver skin health education.",
     imageUrl: "https://picsum.photos/400/300?random=3"
   },
   {
     id: 4,
-    year: "2024",
-    title: "Global Enterprise Launch",
-    description: "Deployment across 150+ medical centers in 12 countries.",
+    year: "2026",
+    title: "LLC Enterprise Launch",
+    description: "Launched as an LLC with ongoing physician oversight, continuous feedback, and clinical guidance throughout development.",
     imageUrl: "https://picsum.photos/400/300?random=4"
   }
 ];
